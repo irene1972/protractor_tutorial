@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Protractor Element Demo', function() {
+describe('Protractor Element Demo 3', function() {
 	it('Locators', function() {
 		browser.waitForAngularEnabled(false);
 		browser.get('https://www.google.com/');
