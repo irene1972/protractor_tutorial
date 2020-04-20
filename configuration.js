@@ -12,7 +12,9 @@ exports.config = {
           //'08_DropDown.js',
           //'09_Actions.js',
           //'11_Alerts.js',
-          '12_Frames.js',
+          //'12_Frames.js',
+          //'13_Sync.js',
+          '14_PracticeForm.js',
           ],
 
   capabilities: {

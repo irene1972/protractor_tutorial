@@ -1,6 +1,4 @@
-'use strict';
-
-import { Driver } from "selenium-webdriver/chrome";
+//import { Driver } from "selenium-webdriver/chrome";
 
 	
 describe('Protractor Frames',function() {  

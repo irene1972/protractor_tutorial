@@ -9,7 +9,8 @@ describe('Actions Demo', function() {
 		browser.waitForAngularEnabled(false);
 	  browser.get('https://www.holidify.com/places/barcelona/');
 		
-		browser.actions().mouseMove(element(by.id('header-autocomplete')).sendKeys('london')).perform();
+		//browser.actions().mouseMove(element(by.id('header-autocomplete')).sendKeys('london')).perform();
+		element(by.id('header-autocomplete')).sendKeys('london');
 		
 		browser.actions().sendKeys(protractor.Key.ARROW_DOWN).perform();
 		/*
@@ -25,7 +26,7 @@ describe('Actions Demo', function() {
 
 	  })
 	});
-	
+	/*
 describe('Actions demo2',function() {  
 
 
@@ -75,3 +76,4 @@ describe('Actions demo2',function() {
 
 	})
 		})
+		*/
