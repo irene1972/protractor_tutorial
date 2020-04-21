@@ -18,7 +18,10 @@ exports.config = {
           //'17_basicsPageObjectMechanism.js',
           '18_setupAndTeardown.js',
           ],
-
+  onPrepare: function() {
+    //aquí se ponen aquellas cosas que queremos que se ejecuten siempre antes de un test
+    browser.driver.manage().window().maximize();
+  },
   capabilities: {
     //'browserName': 'firefox',
     //'browserName': 'internet explorer',
