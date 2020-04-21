@@ -5,13 +5,12 @@ describe('Protractor Element Demo', function() {
 	var obj = require("./15_JsObjectDemo.js");
 
 	beforeEach(function() {
+		
 		obj.getURL();
-		//console.log("Test init");
+
 	});
 
 	it('Testing Calculator function', function() {
-		
-		//obj.getURL();
 
 		obj.firstinput.sendKeys("3");
 		obj.secondinput.sendKeys("5");
