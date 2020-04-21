@@ -14,7 +14,9 @@ exports.config = {
           //'11_Alerts.js',
           //'12_Frames.js',
           //'13_Sync.js',
-          '14_PracticeForm.js',
+          //'14_PracticeForm.js',
+          //'17_basicsPageObjectMechanism.js',
+          '18_setupAndTeardown.js',
           ],
 
   capabilities: {
