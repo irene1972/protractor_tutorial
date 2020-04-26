@@ -11,14 +11,12 @@ exports.config = {
           //'07_Functions.js',
           //'08_DropDown.js',
           //'09_Actions.js',
-          //'09_Actions_bis.js',
           //'11_Alerts.js',
           //'12_Frames.js',
           //'13_Sync.js',
           //'14_PracticeForm.js',
           //'17_basicsPageObjectMechanism.js',
-          //'18_setupAndTeardown.js',
-          '19_JasmineDataProvider.js',
+          '18_setupAndTeardown.js',
           ],
   onPrepare: function() {
     //aquí se ponen aquellas cosas que queremos que se ejecuten siempre antes de un test
