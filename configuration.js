@@ -21,8 +21,7 @@ exports.config = {
           //'17_basicsPageObjectMechanism.js',
           //'18_setupAndTeardown.js',
           //'19_JasmineDataProvider.js',
-          //'20_JasmineProtractorHtmlReport.js',
-          '21_JasmineNodeOptsShowColorsTerminal'
+          '20_JasmineProtractorHtmlReport.js'
           ],
   onPrepare: function() {
     //aquí se ponen aquellas cosas que queremos que se ejecuten siempre antes de un test
